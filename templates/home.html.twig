@@ -1,32 +1,137 @@
 
 {% extends 'base.html.twig' %}
 {% block body %}
-<div class="container">
-   <div class="row">
 
-   
-<div class="col-md-12">
+<div class="container mt-3">
+    <div class="jumbotron">
+      <h1 class="display-3">BienVenu sur mon site SYMBNB</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">voir nos annonces</a>
+      </p>
+    </div>
+     <h2 class="h1 mt-3 mb-4">Nos appartements strats </h2>
 
-  <h1>{{title}} </h1>
-  <p>
-     Le lorem ipsum est, en imprimerie, 
-     une suite de mots sans signification utilisée
-      à titre provisoire pour calibrer une mise en page, 
-      le texte définitif venant remplacer le faux-texte 
-      dès qu'il est prêt ou que la mise en page est achevée.
-       Généralement, on utilise un texte en faux latin, 
-       le Lorem ipsum ou Lipsum.
-  </p>
-  {% if title >30 %}
-  oui
-  {% else %}
-  none
+     <div class="row">
+       <div class="col-md-4">
+          
+          <div class="card bg-light mb-3">
+          <div class="card-header text-center">
 
-  {% endif %}
-{% for skill, ceo in skills %}
-        <li>{{loop.index0}}{{ skill }}  ceo {{ceo}}</li>
-    {% endfor %}
-</div>
-</div>
+            3 chambres , <strong>49&euro; / nuit</strong>  <br/>
+
+             <small> Pas encors note </small>
+          
+          </div>
+          <img class="card-img-top" src="http://placehold.it/1000x400" alt="Image appartement">
+          <div class="card-body">
+         <h4 class="card-title">Appartement de ouf !</h4>
+         <p class="card-text">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre  </p>
+         <a class="btn btn-secondary">En savoir plus</a>
+       </div>
+     </div>
+
+       </div>
+  
+     
+       <div class="col-md-4">
+          
+          <div class="card bg-light mb-3">
+          <div class="card-header text-center">
+
+            3 chambres , <strong>49&euro; / nuit</strong>  <br/>
+
+             <small> Pas encors note </small>
+          
+          </div>
+          <img class="card-img-top" src="http://placehold.it/1000x400" alt="Image appartement">
+          <div class="card-body">
+         <h4 class="card-title">Appartement de ouf !</h4>
+         <p class="card-text">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre  </p>
+         <a class="btn btn-secondary">En savoir plus</a>
+       </div>
+     </div>
+
+       </div>
+  
+     
+       <div class="col-md-4">
+          
+          <div class="card bg-light mb-3">
+          <div class="card-header text-center">
+
+            3 chambres , <strong>49&euro; / nuit</strong>  <br/>
+
+             <small> Pas encors note </small>
+          
+          </div>
+          <img class="card-img-top" src="http://placehold.it/1000x400" alt="Image appartement">
+          <div class="card-body">
+         <h4 class="card-title">Appartement de ouf !</h4>
+         <p class="card-text">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre  </p>
+         <a class="btn btn-secondary">En savoir plus</a>
+       </div>
+     </div>
+
+       </div>
+  
+     
+       
+     </div>
+
+
+     <h2 class="h1 mt-3 mb-4">Nos proprietes starts </h2>
+
+     <div class="row">
+
+      <div class="col-md-6">
+
+            <div class="card border-secondarymb-3">
+             
+              <div class="card-body">
+                <h4 class="card-title">saifEddine GHOUMA</h4>
+                <hr/>
+                <div class="card-text">
+
+                 <img src="http://placehold.it/64x64" alt="avator de loy chamlla" 
+                 class="float-left mr-3">
+                      
+                      <p>tesxt loream est une text qui  deja ecree avec moi meme </p>
+                      <a class="btn btn-success float-right" href="#">en savoit plus</a>
+                
+                </div>
+              </div>
+            </div>
+
+      </div>
+
+
+      <div class="col-md-6">
+
+            <div class="card border-secondarymb-3">
+             
+              <div class="card-body">
+                <h4 class="card-title">saifEddine GHOUMA</h4>
+                <hr/>
+                <div class="card-text">
+
+                 <img src="http://placehold.it/64x64" alt="avator de loy chamlla" 
+                 class="float-left mr-3">
+                      
+                      <p>tesxt loream est une text qui  deja ecree avec moi meme </p>
+                      <a class="btn btn-success float-right" href="#">en savoit plus</a>
+                
+                </div>
+              </div>
+            </div>
+
+      </div>
+       
+
+
+     </div>
+
 </div>
      {% endblock %}
